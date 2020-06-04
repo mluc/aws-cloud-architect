@@ -1,0 +1,14 @@
+- Minimum RTO for a single AZ outage:
+It can be 0 minute if the resource is multi AZ, it will use the resources from the other AZs if this one failed.
+If the resource is not setup as multi AZ. It can be 2 hours if we have 24/7 support team, remote access to systems, and documented recovery procedures.
+
+- Minimum RTO for a single region outage
+It can be 2 hours if we have 24/7 support team, remote access to systems, and documented recovery procedures.
+
+- Minimum RPO for a single AZ outage
+It depends on how often we store a new backup. If we store a new backup every 6 hours, we have an RPO of 6 hours.
+We can shorten the backup period but it depends on how long it takes for a backup too.
+
+- Minimum RPO for a single region outage
+It can be 0 minute if it is setup as multi-region (Ex: DynamoDB), it will use the DynamoDB instance from other regions if this one failed.
+It it is not setup as multi-region, it depends on how often we store a new backup. If we store a new backup every 6 hours, we have an RPO of 6 hours.
