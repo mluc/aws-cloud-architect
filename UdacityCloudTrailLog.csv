@@ -1,0 +1,29 @@
+Event ID,Event time,User name,Event name,Resource type,Resources,AWS access key,AWS region,Error code,Source IP address
+2f9cb8e2-228a-4c06-8ce4-b5fed27f3f17,"2020-06-14, 12:43:19 AM",Accountant,ChangePassword,,,,us-east-1,,AWS Internal
+98fea7a3-680c-4def-b457-27355c9b419b,"2020-06-14, 12:42:48 AM",Accountant,ConsoleLogin,,,,us-east-1,,47.221.156.77
+24e756d4-2a0a-4eb2-b948-38c02121e459,"2020-06-14, 12:41:04 AM",CloudTrail,ChangePassword,,,,us-east-1,,AWS Internal
+232ae0b2-3b29-47fd-ae50-50184f9810bb,"2020-06-14, 12:40:43 AM",CloudTrail,ConsoleLogin,,,,us-east-1,,47.221.156.77
+c41a81b0-2c3a-4ae6-a130-51bcc14008c2,"2020-06-14, 12:40:33 AM",CloudTrail,ConsoleLogin,,,,us-east-1,,47.221.156.77
+cc4048a5-24cf-45b4-b6f6-183bfd183b25,"2020-06-14, 12:39:37 AM",CloudTrail,ChangePassword,,,,us-east-1,InternalFailure,AWS Internal
+524d06ae-0438-49a8-9f90-805d00909e8d,"2020-06-14, 12:39:01 AM",CloudTrail,ConsoleLogin,,,,us-east-1,,47.221.156.77
+2618ad67-9119-437c-9351-3888c66eacbb,"2020-06-14, 12:38:25 AM",root,ConsoleLogin,,,,us-east-1,,47.221.156.77
+91f4b326-8231-4e3b-a55a-c611f7e33b0b,"2020-06-14, 12:37:39 AM",CloudTrail,ConsoleLogin,,,,us-east-1,,47.221.156.77
+57203f38-cc5a-4155-946a-03f69ec1da31,"2020-06-14, 12:36:49 AM",HIDDEN_DUE_TO_SECURITY_REASONS,ConsoleLogin,,,,us-east-1,,47.221.156.77
+5382d939-8213-4ab6-9733-e8e2c465078a,"2020-06-14, 12:36:43 AM",HIDDEN_DUE_TO_SECURITY_REASONS,ConsoleLogin,,,,us-east-1,,47.221.156.77
+444bf299-52e0-405a-b0b0-edfe99266d85,"2020-06-14, 12:33:41 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,47.221.156.77
+66e00117-da0f-4efa-a92b-63e77e52235d,"2020-06-14, 12:33:41 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,47.221.156.77
+fda4af0d-81f7-4f8b-8601-558f10979f62,"2020-06-14, 12:33:41 AM",root,CreateAccessKey,IAM AccessKey and 1 more,"[{""resourceType"":""AWS::IAM::AccessKey"",""resourceName"":""AKIA3OMXQXG42TY7AD4B""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,47.221.156.77
+cbe5776f-e014-4516-8245-7f2411ad07fe,"2020-06-14, 12:33:40 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDA3OMXQXG47EAVVQP6X""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::786833652153:user/Accountant""}]",,us-east-1,,47.221.156.77
+4dab215b-a193-4694-84d8-5abe484cccef,"2020-06-14, 12:33:37 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,47.221.156.77
+87086872-2709-4ff4-9e6c-b384f46655a1,"2020-06-14, 12:33:37 AM",root,CreateAccessKey,IAM AccessKey and 1 more,"[{""resourceType"":""AWS::IAM::AccessKey"",""resourceName"":""AKIA3OMXQXG42LRDS4WS""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,47.221.156.77
+c1c51ecf-3c2b-46bc-afc8-f36a97973f55,"2020-06-14, 12:33:37 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,47.221.156.77
+373de25a-2166-4aba-af52-7044c8bcd654,"2020-06-14, 12:33:36 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDA3OMXQXG446RZJ5VOQ""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::786833652153:user/CloudTrail""}]",,us-east-1,,47.221.156.77
+84414fbb-1cb6-48e7-b65a-22626052acfd,"2020-06-14, 12:30:05 AM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::786833652153:group/Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPA3OMXQXG43KIR7FCC6""}]",,us-east-1,,47.221.156.77
+9cebd1bf-8a61-49d4-b7e0-bc0c5807a605,"2020-06-14, 12:30:05 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,47.221.156.77
+0119a32c-7bd9-4ae7-b6e1-737ddcb37c95,"2020-06-14, 12:29:46 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,47.221.156.77
+56ff5006-66a5-41d5-bf5b-4442c36de9f4,"2020-06-14, 12:29:46 AM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPA3OMXQXG4Z3JUDOFHG""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::786833652153:group/CloudTrailAdmins""}]",,us-east-1,,47.221.156.77
+9c9caacb-8a8e-4fbc-8493-2a033ae57d29,"2020-06-14, 12:29:46 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailFullAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,47.221.156.77
+bad59198-c15b-41bd-85e8-e35d0f93db00,"2020-06-14, 12:27:45 AM",root,UpdateAccountPasswordPolicy,,,,us-east-1,,47.221.156.77
+4db2d813-b9ea-46dd-9103-52c452fea452,"2020-06-14, 12:27:01 AM",root,ConsoleLogin,,,,us-east-1,,47.221.156.77
+d4c59a9b-30ce-4d57-a65d-4e52500b52b5,"2020-06-14, 12:26:38 AM",root,UpdateAccountPasswordPolicy,,,,us-east-1,,47.221.156.77
+39560e41-571d-43a1-ab42-92e3e9b9cd21,"2020-06-14, 12:19:01 AM",root,ConsoleLogin,,,,us-east-1,,47.221.156.77
