@@ -5,8 +5,9 @@ My Estimate,US East (N. Virginia),S3 Standard,0,94.21,1130.52,USD,S3 Standard st
 My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Not selected) 0 TB per month 
  Outbound (to: Not selected) 0 TB per month 
 "
-My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,3397.2,40766.40,USD,"Change records per statement (0.38), (1 instances)  db.r5.8xlarge  Memory optimized  OnDemand, Storage amount (100 GB)"
-My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,1703.6,20443.20,USD,"Change records per statement (0.38), (1 instances)  db.r5.4xlarge  Memory optimized  OnDemand, Storage amount (100 GB)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,157.86,1894.32,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,4208.25,50499.00,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,1405.05,16860.60,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
 
 
 

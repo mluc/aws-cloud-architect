@@ -1,17 +1,17 @@
-Initial_Cost_Estimate: https://calculator.aws/#/estimate?id=1087878111186858c85d01966c4469f1f2562842
-Total: $11065.93
+Initial_Cost_Estimate: https://calculator.aws/#/estimate?id=3bed6af6d95bea0710600c04a2a6fd74561d6ffd
+Total: $9468.69
 
 
-Reduced_Cost_Estimate: https://calculator.aws/#/estimate?id=d23d5bf5ed7aeaed912aa7677f3b714768e6d544
-Total: $5671.01
+Reduced_Cost_Estimate: https://calculator.aws/#/estimate?id=c8d6cded78da86037a5efef35d9c957f952a7055
+Total: $6341.37
 Explain:
 - EC2: downgrade EC2 instances from c5.xlarge Compute Optimized to m5.large general purpose. Actually we can keep c5.xlarge here since it is only $300 different.
-- RDS writer: downgrade from db.r5.12xlarge to db.r5.8xlarge to reduce the cost. It has less CPU and memory but network performance is the same
+- RDS writer: keep db.r5.12xlarge
 - RDS reader: downgrade from db.r5.12xlarge to db.r5.4xlarge. Reader can be a bit less powerful since reader only handles reading data
 
 
-Increased_Cost Estimate: https://calculator.aws/#/estimate?id=cea9951c73bd088243bdc94c21ae6176a3a87928
-Total: $19059.13
+Increased_Cost Estimate: https://calculator.aws/#/estimate?id=13e10253552387bf210d6b642ac643ddfc0f9027
+Total: $19630.29
 Explain:
-- EC2: upgrade instance type to c5.18xlarge for more CPU, more memory, and better network performance
-- RDS writer: upgrade the writer instance to db.r5.16xlarge for more CPU, more memory, and better network performance
+- EC2: upgrade instance type to c5.9xlarge for more CPU, more memory, and better network performance
+- RDS writer: upgrade the writer instance to db.r5.24xlarge for more CPU, more memory, and better network performance
