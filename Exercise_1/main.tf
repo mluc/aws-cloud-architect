@@ -11,7 +11,7 @@ resource "aws_instance" "UdacityT2" {
   ami = "ami-09d95fab7fff3776c"
   instance_type = "t2.micro"
   tags = {
-    name = "Udacity T2"
+    Name = "Udacity T2"
   }
 }
 
@@ -21,6 +21,6 @@ resource "aws_instance" "UdacityM4" {
   ami = "ami-09d95fab7fff3776c"
   instance_type = "m4.large"
   tags = {
-    name = "Udacity M4"
+    Name = "Udacity M4"
   }
 }
