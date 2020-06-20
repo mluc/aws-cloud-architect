@@ -1,8 +1,14 @@
 
-# What additional architectural change can be made to reduce the internet facing attack surface of the web application instance.
+# What additional architectural change can be made to reduce the internet-facing attack surface of the web application instance.
+- Move RecipeWebServiceInstance to a private subnet to disallow public access.
 
 # Assuming the IAM permissions for the S3 bucket are still insecure, would creating VPC private endpoints for S3 prevent the unauthorized access to the secrets bucket.
+No. As we know, API keys can be stolen to ssh to the Attack Instance inside VPC.
+VPC endpoints only allow us to block requests that do not originate from VPC network, but the Attack Instance is already in the VPC network.
 
 # Will applying default encryption setting to the s3 buckets encrypt the data that already exists?
+No. Only apply for future uploads.
 
-# What would happen if the original cloud formation templates are applied to this environment.
+# The changes you made above were done through the console or CLI; describe the outcome if the original cloud formation templates are applied to this environment?
+Since we make changes to the stack resources outside of AWS CloudFromation, it can create a mismatch between the stack template and the current state of the stack resource,
+which can cause errors when update or delete the stack.

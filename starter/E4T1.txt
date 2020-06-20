@@ -1,5 +1,9 @@
-
-
 # Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+- RecipeWebServiceInstance should be in a private subnet to disallow public access.
+- RecipeWebServiceInstance's security group WebAppSG inbound rules should not be opened to public. Should allow inputs from AppLoadBalancerSG only.
+- Don't allow ssh from the internet. Setup a bastion host to ssh to the instance internally.
+- Disable SSH password login
 
 # Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+- Modify the existing InstanceRole policy: read only access to the free recipe S3 bucket only. (use "Resource": ["arn:aws:s3:::cand-c3-free-recipes-786833652153/*"] instead of "Resource": "*")
+
