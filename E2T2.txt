@@ -1,0 +1,15 @@
+Provide recommendations on how to remediate the vulnerabilities:
+
+AWS config:
+- Rule: securityhub-alb-http-to-https-redirection-check-0cca8a40.
+c1-web-service-alb should configure HTTP to HTTPS redirection
+- Rule: securityhub-ec2-instance-managed-by-ssm-946a4a38
+Web Service Instance and Web Service Instance should have AWS Systems Manager enable
+
+
+AWS Inspector:
+- Change WebAppSG inbound rules so that Web Service Instance can not be reached from the internet.
+
+AWS Security Hub:
+- Avoid using root account
+- Use MFA

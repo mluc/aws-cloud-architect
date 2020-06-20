@@ -1,0 +1,3 @@
+- Finding type: UnauthorizedAccess:EC2/SSHBruteForce
+
+- GuardDuty detects unauthorized and unexpected activities by analyzing and processing the following data sources: VPC Flow Logs, AWS CloudTrail event logs, and DNS logs.
