@@ -1,3 +1,0 @@
-identifying 2 poor security practices with justification:
-- RecipeWebServiceInstance should be in a private subnet to disallow public access.
-- WebAppSG inbound rules should not be opened to public. Should allow inputs from AppLoadBalancerSG only.

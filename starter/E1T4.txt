@@ -1,5 +1,6 @@
 Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
 
 # Poor practice 1
-
+RecipeWebServiceInstance should be in a private subnet to disallow public access.
 # Poor practice 2
+WebAppSG inbound rules should not be opened to public. Should allow inputs from AppLoadBalancerSG only.
