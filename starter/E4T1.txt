@@ -6,4 +6,4 @@
 
 # Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
 - Modify the existing InstanceRole policy: read only access to the free recipe S3 bucket only. (use "Resource": ["arn:aws:s3:::cand-c3-free-recipes-786833652153/*"] instead of "Resource": "*")
-
+- Create another role and policy to only allow privileged business users to access the secret S3 bucket ("Resource": ["arn:aws:s3:::cand-c3-secret-recipes-786833652153/*" and "Principal": {"AWS": ["arn:aws:iam::111122223333:privileged-users"]})
